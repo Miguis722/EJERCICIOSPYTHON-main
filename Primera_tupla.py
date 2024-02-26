@@ -15,4 +15,5 @@ laboral = input("Por favor, escriba si posee experiencia laboral: ")
 
 
 informacion = tuple((nombre, edad, direccion, estatura, educacion, laboral))
-print(informacion[0::1])
+print("De uno en uno", informacion[0::1])
+print("De dos en dos", informacion[0::2])
